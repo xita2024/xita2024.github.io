@@ -1,0 +1,222 @@
+/**************************************Format of index.html***************************************************/
+
+/* Format of html and body*/
+html, body {
+	height: 100%;
+}
+
+/* Format of body*/
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #e0ffff;
+	font-family: 'Chivo', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #363636;
+}
+
+/* Format of heading 1,2, and 3*/
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+/* Format of the paragraph and the list*/
+p, ul {
+	margin-top: 0px;
+}
+
+/* Format of the paragraph*/
+p {
+	line-height: 190%;
+}
+
+/*Format for heading 6*/
+h6{
+	text-align: center;
+	color: black;
+	font-size: 15px;
+}
+
+
+
+
+
+/**************************************Format of the heading titles***************************************************/
+
+/*Format of class title*/
+.title
+{
+	margin-bottom: 2em;
+	text-transform: uppercase;
+}
+/*Format for the class, title and heading 2 */
+.title h2
+{
+	font-weight: 400;
+	font-size: 2em;
+	color: #B10058;
+}
+
+
+/* Format for the class, container */
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+
+
+/**************************************Format of the headers***************************************************/
+/*Format of id wrapper*/
+#wrapper{
+	background-color: #e0ffff;
+	
+}
+
+/*Format of id headed-wrapper*/
+#header-wrapper
+{
+	overflow: hidden;
+	background-size: 100%;
+	padding: 6em 0em 2em 0em;
+	background-image: url("images/rally3.png");
+}
+
+
+/*Format of id header*/
+#header 
+{
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+/**************************************Format of the logos***************************************************/
+
+/*Format of id*/
+#logo 
+{
+	width: 500px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 2em 0em;
+	text-transform: uppercase;
+}
+
+/*Format of id logo and h1 tag*/
+#logo h1
+{
+	letter-spacing: 0.10em;
+	font-size: 3em;
+}
+
+/*Format of id logo and p tag*/
+#logo p 
+{
+	letter-spacing: 0.10em;
+	color: #FFF;
+}
+
+/*Format of id logo and a tag*/
+#logo a 
+{
+	text-decoration: none;
+	color: #FFF;
+}
+/*********************************Format for the images ******************************************************/
+/* Format of class column*/
+.column {
+/* Where the picture should placed*/
+  float: left;
+  width: 100%;
+  padding: 25px;
+  height: 100%;
+}
+
+.cars {
+/* Where the picture should placed*/
+  float: left;
+  width: 100%;
+  padding: 0px;
+  height: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/********************************** Format for MENU ***************************************************************/
+
+/*Format of id menu-wrapper*/
+#menu-wrapper
+{
+	background: #e0ffff;
+}
+
+/*Format of id menu*/
+#menu {
+	overflow: hidden;
+	height: 100px;
+}
+/*Format of id menu and ul tag*/
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+/*Format of id menu and li tag*/
+#menu li {
+	display: inline-block;
+}
+
+/*Format of id menu and a tag*/
+#menu a {
+	display: block;
+	letter-spacing: 1px;
+	padding: 0px 40px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	line-height: 100px;
+	border: none;
+	color: black;
+}
+
+
+
+/** **********************************************PAGE ******************************************************/
+
+/*Format of id page*/
+#page
+{
+	position: static;
+	overflow: visible;
+	padding: 1em 0em 1em 0em;
+}
+
+
+
+
+
+
+
+
+
+
+	

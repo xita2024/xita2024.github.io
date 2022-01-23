@@ -1,0 +1,51 @@
+/* Style the video: 100% width and height to cover the entire window */
+.cars {
+/* Where the picture should placed*/
+  float: left;
+  width: 100%;
+  padding: 0px;
+  height: 95%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+{
+	background: #e0ffff;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: white;
+	font-family: 'Chivo', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #363636;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;	
+}
+
+input[type=button] {
+    font-family: 'Chivo', sans-serif;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
